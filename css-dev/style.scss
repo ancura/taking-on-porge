@@ -1,0 +1,32 @@
+// grid & responsive layout
+// -----------------------------------------------------------------
+
+// breakpoints
+$XS:                         500px !default;
+$SM:                          768px !default;
+$MD:                          992px !default;
+$LG:                          1200px !default;
+
+// media queries
+$MQs: true !default;
+
+$color-primary:              #cb0000;
+$color-secondary:            #000000;
+
+@import "_mixins.scss";
+@import "_webfonts.scss";
+@import "_grid.scss";
+@import "_layout.scss";
+
+img {
+	width: 100%;
+}
+
+h1 {
+   color: purple;
+   position: absolute;
+   z-index: 100;
+   top: 300px;
+   left: 150px;
+   font-size: 4em;
+}
