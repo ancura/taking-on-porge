@@ -32,13 +32,22 @@ img {
   width: 100%;
 }
 
-h1 {
+.banner-container h1 {
   color: purple;
   position: absolute;
   z-index: 100;
-  top: 300px;
+  top: 200px;
   left: 150px;
+  font-size: 3em;
+}
+.banner-container em {
+  display: block;
   font-size: 4em;
+  margin-top: 50px;
+  transform: skew(10deg, -5deg);
+}
+.banner-container h2 {
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
