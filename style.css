@@ -28,6 +28,9 @@ ANY CHANGES YOU MAKE IN THIS FILE WILL BE OVERWRITTEN WHEN THE SASS FILES ARE
 EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
 
 */
+.banner-container {
+  height: 600px;
+}
 .banner-container h1 {
   color: #fff;
   font-size: 3em;
