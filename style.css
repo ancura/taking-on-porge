@@ -40,7 +40,7 @@ EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
 }
 .banner-container img {
   width: 100%;
-  position: relative;
+  position: absolute;
 }
 .banner-container h2 {
   color: #fff;
