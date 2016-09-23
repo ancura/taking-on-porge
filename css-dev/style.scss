@@ -21,11 +21,7 @@ $color-secondary:            #000000;
 $header-primary-color:#fff;
 $header-secondary-color:purple;
 
-img {
-	width: 100%;
-	height: auto;
-	position: absolute;
-}
+
 
 .banner-container {
 	h1 {
@@ -42,6 +38,11 @@ img {
 
 	}
 
+	img {
+		width: 100%;
+		height: auto;
+		position: absolute;
+	}
 
 	h2 {
 		color: $header-primary-color;
