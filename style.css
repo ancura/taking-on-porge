@@ -36,10 +36,6 @@ img {
 
 .banner-container h1 {
   color: #fff;
-  position: absolute;
-  z-index: 100;
-  top: 200px;
-  left: 150px;
   font-size: 3em;
 }
 .banner-container h1 em {
