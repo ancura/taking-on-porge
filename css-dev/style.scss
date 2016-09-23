@@ -44,5 +44,9 @@ img {
 
 	h2 {
 		color: $header-primary-color;
+		z-index: 100;
+    	position: absolute;
+    	top: 450px;
+    	left: 150px;
 	}
 }
