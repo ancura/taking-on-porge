@@ -29,6 +29,7 @@ $header-secondary-color:purple;
 	h1 {
 	   color: #fff;
 	   font-size: 3em;
+	   position: relative;
 
 	   em {
 			display: block;
@@ -46,11 +47,18 @@ $header-secondary-color:purple;
 
 	h2 {
 		color: $header-primary-color;
+		position: relative;
 
 		em {
 			display: block;
 			font-size: 30px;
 		}
+	}
+	span {
+		display: block;
+		color: #fff;
+    	position: relative;
+    	margin: 0px 0px 0px 24px;
 	}
 }
 

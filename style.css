@@ -34,6 +34,7 @@ EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
 .banner-container h1 {
   color: #fff;
   font-size: 3em;
+  position: relative;
 }
 .banner-container h1 em {
   display: block;
@@ -47,10 +48,17 @@ EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
 }
 .banner-container h2 {
   color: #fff;
+  position: relative;
 }
 .banner-container h2 em {
   display: block;
   font-size: 30px;
+}
+.banner-container span {
+  display: block;
+  color: #fff;
+  position: relative;
+  margin: 0px 0px 0px 24px;
 }
 
 em {
