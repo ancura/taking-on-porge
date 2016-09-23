@@ -40,11 +40,14 @@ EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
 }
 .banner-container img {
   width: 100%;
-  height: auto;
-  position: absolute;
+  position: relative;
 }
 .banner-container h2 {
   color: #fff;
+}
+.banner-container h2 em {
+  display: block;
+  font-size: 30px;
 }
 
 em {

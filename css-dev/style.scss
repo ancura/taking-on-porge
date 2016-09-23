@@ -29,23 +29,26 @@ $header-secondary-color:purple;
 	   font-size: 3em;
 
 	   em {
-
-		display: block;
-	   font-size: 4em;
-	   margin-top: 50px;
-	   transform: skew(10deg,-5deg);
+			display: block;
+		   font-size: 4em;
+		   margin-top: 50px;
+		   transform: skew(10deg,-5deg);
 		}
 
 	}
 
 	img {
 		width: 100%;
-		height: auto;
-		position: absolute;
+		position: relative;
 	}
 
 	h2 {
 		color: $header-primary-color;
+
+		em {
+			display: block;
+			font-size: 30px;
+		}
 	}
 }
 
