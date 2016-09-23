@@ -30,17 +30,19 @@ EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
 */
 img {
   width: 100%;
+  height: auto;
+  position: absolute;
 }
 
 .banner-container h1 {
-  color: purple;
+  color: #fff;
   position: absolute;
   z-index: 100;
   top: 200px;
   left: 150px;
   font-size: 3em;
 }
-.banner-container em {
+.banner-container h1 em {
   display: block;
   font-size: 4em;
   margin-top: 50px;
@@ -48,6 +50,10 @@ img {
 }
 .banner-container h2 {
   color: #fff;
+}
+
+em {
+  color: purple;
 }
 
 /*# sourceMappingURL=style.css.map */
