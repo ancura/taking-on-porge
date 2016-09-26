@@ -23,7 +23,7 @@ $header-secondary-color:purple;
 
 
 .container {
-	width: 70%;
+	width: 60%;
 }
 
 .text-container {
@@ -83,15 +83,15 @@ $header-secondary-color:purple;
 }
 
 .responsiveVideo {
-	width: 60%;
-	margin: 0 auto;
+	width: auto;
+	margin: 0 -20px;
 }
 
 .text-box {
 	padding: 40px 0;
-	width: 60%;
-	margin: 20px auto;
-	background-color: #000;
+   width: auto;
+   margin: 20px -20px;
+   background-color: #000;
 	p {
 		color: #fff;
 	   padding: 0 30px;
