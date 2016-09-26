@@ -32,8 +32,8 @@ section {
   width: 100%;
   padding: 20px 0;
 }
-section .inner-container {
-  width: 60%;
+section .text-container {
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -79,7 +79,7 @@ section .inner-container {
 }
 
 .responsiveVideo {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
