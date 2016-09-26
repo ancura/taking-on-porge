@@ -78,6 +78,11 @@ section .inner-container {
   margin-right: 20px;
 }
 
+.responsiveVideo {
+  width: 80%;
+  margin: 0 auto;
+}
+
 em {
   color: purple;
 }
