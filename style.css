@@ -85,7 +85,8 @@ blockquote p {
 
 .responsiveVideo {
   width: auto;
-  margin: 40px -30px;
+  margin: 0 -30px;
+  padding: 40px 0;
 }
 
 .text-box {
