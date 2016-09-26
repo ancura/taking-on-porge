@@ -26,14 +26,9 @@ $header-secondary-color:purple;
 	width: 60%;
 }
 
-.text-container {
-	width: 50%;
-	margin: 0 auto;
-}
-
 .banner-container {
-	height: 600px;
-
+	height: 1100px;
+	width: 100%;
 
 	h1 {
 	   color: #fff;
@@ -106,8 +101,8 @@ $header-secondary-color:purple;
 }
 
 figure {
-	margin: 0 auto;
-   width: 60%;
+	width: auto;
+   margin: 0 -20px;
    img {
    	width: 100%;
     	height: auto;

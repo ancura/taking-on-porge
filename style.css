@@ -32,13 +32,9 @@ EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
   width: 60%;
 }
 
-.text-container {
-  width: 50%;
-  margin: 0 auto;
-}
-
 .banner-container {
-  height: 600px;
+  height: 1100px;
+  width: 100%;
 }
 .banner-container h1 {
   color: #fff;
@@ -103,8 +99,8 @@ EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
 }
 
 figure {
-  margin: 0 auto;
-  width: 60%;
+  width: auto;
+  margin: 0 -20px;
 }
 figure img {
   width: 100%;
