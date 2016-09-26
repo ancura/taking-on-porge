@@ -85,6 +85,17 @@ section {
 	margin: 0 auto;
 }
 
+.text-box {
+	width: 70%;
+	background-color: #000;
+	p {
+		color: #fff;
+			em {
+				color: purple;
+			}
+	}
+}
+
 em {
 	color: purple;
 }
