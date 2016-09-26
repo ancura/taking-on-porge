@@ -85,7 +85,7 @@ blockquote p {
 
 .responsiveVideo {
   width: auto;
-  margin: 0 -30px;
+  margin: 40px -30px;
 }
 
 .text-box {
@@ -110,6 +110,7 @@ blockquote p {
 figure {
   width: auto;
   margin: 0 -30px;
+  padding: 40px 0;
 }
 figure img {
   width: 100%;
