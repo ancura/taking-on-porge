@@ -86,7 +86,7 @@ section .text-container {
 .text-box {
   padding: 20px 0;
   width: 70%;
-  margin: 0 auto;
+  margin: 20px auto;
   background-color: #000;
 }
 .text-box p {
