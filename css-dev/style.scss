@@ -77,6 +77,14 @@ $header-secondary-color:purple;
 	}
 }
 
+blockquote {
+	width: auto;
+	margin: 0 -20px;
+	p {
+		margin-bottom: 25px;
+	}
+}
+
 .responsiveVideo {
 	width: auto;
 	margin: 0 -20px;

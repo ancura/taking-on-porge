@@ -75,6 +75,14 @@ EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
   margin-right: 20px;
 }
 
+blockquote {
+  width: auto;
+  margin: 0 -20px;
+}
+blockquote p {
+  margin-bottom: 25px;
+}
+
 .responsiveVideo {
   width: auto;
   margin: 0 -20px;
