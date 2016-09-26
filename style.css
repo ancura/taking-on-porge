@@ -63,6 +63,8 @@ EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
 
 .img-porgy img {
   width: 20%;
+  max-width: 200px;
+  min-width: 200px;
   float: left;
   margin-right: 20px;
 }
