@@ -101,6 +101,15 @@ section .text-container {
   font-style: normal;
 }
 
+figure {
+  margin: 0 auto;
+  width: 60%;
+}
+figure img {
+  width: 100%;
+  height: auto;
+}
+
 em {
   color: purple;
 }
