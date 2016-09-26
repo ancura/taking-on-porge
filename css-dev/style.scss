@@ -22,7 +22,13 @@ $header-primary-color:#fff;
 $header-secondary-color:purple;
 
 
+section {
+	width: 100%;
 
+	.inner-container {
+		width: 80%;
+	}
+}
 .banner-container {
 	height: 600px;
 

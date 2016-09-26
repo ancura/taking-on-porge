@@ -28,6 +28,13 @@ ANY CHANGES YOU MAKE IN THIS FILE WILL BE OVERWRITTEN WHEN THE SASS FILES ARE
 EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
 
 */
+section {
+  width: 100%;
+}
+section .inner-container {
+  width: 80%;
+}
+
 .banner-container {
   height: 600px;
 }
