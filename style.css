@@ -93,6 +93,7 @@ blockquote p {
   width: auto;
   margin: 20px -30px;
   background-color: #000;
+  font-family: sans-serif;
 }
 .text-box p {
   color: #fff;
@@ -120,7 +121,7 @@ em {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 /*# sourceMappingURL=style.css.map */
