@@ -155,6 +155,10 @@ figure.img-left img {
   width: 100%;
 }
 
+div.half-half figure {
+  margin: 0;
+}
+
 div.half-half {
   width: auto;
   display: flex;
