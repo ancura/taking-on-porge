@@ -162,6 +162,7 @@ div.half-half figure {
 	width: 50%;
 	margin: 0;
 	img {
+
 	}
 }
 
@@ -169,15 +170,15 @@ div.half-half {
 	width: auto;
    margin: 30px -30px;
    &:after {
-        /* These classes are using %clearfix. */
-        display: table;
-        clear: both;
-        content: "";
+      /* These classes are using %clearfix. */
+      display: table;
+      clear: both;
+      content: "";
     }
 	.half-img {
 		float: left;
-		width: 50%;
-		margin: 0;
+    	width: 48%;
+    	margin: 20px 0 0 14px;
 	}
 }
 
