@@ -30,6 +30,7 @@ EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
 */
 .container {
   width: 60%;
+  max-width: 1800px;
 }
 
 .banner-container {
