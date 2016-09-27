@@ -122,9 +122,12 @@ figure span {
   font-weight: bold;
 }
 
-p img {
+p figure {
   float: right;
-  margin: 35px -20px 20px 20px;
+  margin: 0 -30px 20px 20px;
+}
+p figure img {
+  width: 100%;
 }
 
 em {

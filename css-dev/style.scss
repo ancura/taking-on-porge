@@ -125,9 +125,12 @@ figure {
 }
 
 p {
-	img{
+	figure {
 		float: right;
-		margin: 35px -20px 20px 20px;
+		margin: 0 -30px 20px 20px;
+		img{
+			width: 100%;
+		}
 	}
 }
 
