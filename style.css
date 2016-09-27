@@ -156,17 +156,12 @@ figure.img-left img {
 }
 
 div.half-half figure {
-  margin: 0 32px 0 0;
-}
-div.half-half figure img {
-  min-width: 400px;
+  float: left;
+  width: 50%;
 }
 
 div.half-half {
   width: auto;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
   margin: 30px -30px;
 }
 div.half-half:after {
@@ -176,6 +171,8 @@ div.half-half:after {
   content: "";
 }
 div.half-half .half-img {
+  float: left;
+  width: 50%;
   margin: 0;
 }
 

@@ -158,17 +158,14 @@ figure.img-left {
 }
 
 div.half-half figure {
-	margin: 0 32px 0 0;
+	float: left;
+	width: 50%;
 	img {
-		min-width: 400px;
 	}
 }
 
 div.half-half {
 	width: auto;
-	display: flex;
-   align-items: flex-start;
-   justify-content: space-around;
    margin: 30px -30px;
    &:after {
         /* These classes are using %clearfix. */
@@ -177,6 +174,8 @@ div.half-half {
         content: "";
     }
 	.half-img {
+		float: left;
+		width: 50%;
 		margin: 0;
 	}
 }
