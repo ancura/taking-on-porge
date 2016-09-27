@@ -146,6 +146,25 @@ div.text-box.sided-box p {
   margin: 0;
 }
 
+figure.img-left {
+  float: left;
+  margin: 0 20px 20px -30px;
+  padding: 0;
+  width: 50%;
+}
+figure.img-left img {
+  width: 100%;
+}
+
+div.half-half {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+div.half-half img {
+  margin: 0 -30px 0 60px;
+}
+
 em {
   color: purple;
 }

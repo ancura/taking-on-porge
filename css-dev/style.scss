@@ -129,7 +129,7 @@ figure.img-right {
 	margin: 0 -30px 20px 20px;
 	padding: 0;
 	width: 50%;
-	img{
+	img {
 		width: 100%;
 	}
 }
@@ -146,6 +146,25 @@ div.text-box.sided-box {
    line-height: 1.3;
    margin: 0;
    }
+}
+
+figure.img-left {
+	float: left;
+	margin: 0 20px 20px -30px;
+	padding: 0;
+	width: 50%;
+	img {
+		width: 100%;
+	}
+}
+
+div.half-half {
+	display: flex;
+   align-items: baseline;
+   justify-content: space-around;
+	img {
+		margin: 0 -30px 0 60px;
+	}
 }
 
 em {
