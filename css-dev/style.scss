@@ -162,8 +162,10 @@ div.half-half {
 	display: flex;
    align-items: baseline;
    justify-content: space-around;
-	p.img {
+	p {
+		.img {
 		margin: 0 -30px 0 60px;
+		}
 	}
 }
 
