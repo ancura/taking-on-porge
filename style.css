@@ -156,7 +156,7 @@ figure.img-left img {
 }
 
 div.half-half figure {
-  margin: 0;
+  margin: 0 32px 0 0;
 }
 
 div.half-half {
