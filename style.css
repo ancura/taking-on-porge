@@ -125,6 +125,8 @@ figure span {
 figure.img-right {
   float: right;
   margin: 0 -30px 20px 20px;
+  padding: 0;
+  width: normal;
 }
 figure.img-right img {
   width: 100%;
