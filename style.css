@@ -156,12 +156,14 @@ figure.img-left img {
 }
 
 div.half-half {
+  width: auto;
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  margin: 0;
+  margin: 20px -20px;
 }
-div.half-half .half-img {
+div.half-half s
+.half-img {
   margin: 0;
 }
 
