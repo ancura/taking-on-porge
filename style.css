@@ -158,6 +158,9 @@ figure.img-left img {
 div.half-half figure {
   margin: 0 32px 0 0;
 }
+div.half-half figure img {
+  min-width: 400px;
+}
 
 div.half-half {
   width: auto;
