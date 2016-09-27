@@ -122,11 +122,11 @@ figure span {
   font-weight: bold;
 }
 
-p figure {
+.img-right {
   float: right;
   margin: 0 -30px 20px 20px;
 }
-p figure img {
+.img-right img {
   width: 100%;
 }
 
