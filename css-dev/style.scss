@@ -170,6 +170,7 @@ div.half-half {
    align-items: flex-start;
    justify-content: space-around;
    margin: 30px -30px;
+   @extend %clearfix;
 	.half-img {
 		margin: 0;
 	}
