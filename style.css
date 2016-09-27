@@ -158,6 +158,7 @@ figure.img-left img {
 div.half-half figure {
   float: left;
   width: 50%;
+  margin: 0;
 }
 
 div.half-half {
