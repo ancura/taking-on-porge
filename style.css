@@ -121,6 +121,11 @@ figure span {
   font-weight: bold;
 }
 
+p img {
+  float: right;
+  margin: 35px -20px 20px 20px;
+}
+
 em {
   color: purple;
 }
