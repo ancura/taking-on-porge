@@ -81,9 +81,11 @@ $header-secondary-color:purple;
 blockquote {
 	width: auto;
 	margin: 0 -30px 25px -30px;
+	/*
 	p {
 		margin-bottom: 25px;
 	}
+	*/
 }
 
 .responsiveVideo {
@@ -192,5 +194,4 @@ em {
 }
 
 p {
-	font-size: 1.2em;
 }
