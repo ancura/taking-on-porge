@@ -84,13 +84,13 @@ EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
 }
 
 span.porgy-dropcap {
-  font-family: "TiemposText";
+  font-family: "Circular";
   float: left;
   font-size: 100px;
   background-color: black;
   line-height: 100px;
-  padding: 0 10px;
-  margin: 10px;
+  padding: 0px;
+  margin: 10px 10px 0 0;
   color: #b077ff;
 }
 
