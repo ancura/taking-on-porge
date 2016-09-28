@@ -86,9 +86,10 @@ EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
 span.porgy-dropcap {
   font-family: "Circular";
   float: left;
-  font-size: 100px;
+  font-size: 80px;
+  font-weight: 900;
   background-color: black;
-  line-height: 100px;
+  line-height: 60px;
   padding: 20px;
   margin: 0 10px 0 0;
   color: #b077ff;
