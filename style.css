@@ -112,7 +112,7 @@ span.porgy-dropcap {
 
 blockquote {
   width: auto;
-  margin: 0 -60px 25px -60px;
+  margin: 0 -100px 25px -100px;
   /*
   p {
   	margin-bottom: 25px;
@@ -122,13 +122,13 @@ blockquote {
 
 .responsiveVideo {
   width: auto;
-  margin: 60px -60px;
+  margin: 60px -100px;
 }
 
 .text-box {
   padding: 25px 0;
   width: auto;
-  margin: 60px -60px;
+  margin: 60px -100px;
   background-color: #000;
 }
 .text-box p {
@@ -143,7 +143,7 @@ blockquote {
 
 figure {
   width: auto;
-  margin: 60px -60px;
+  margin: 60px -100px;
 }
 figure img {
   width: 100%;
@@ -155,7 +155,7 @@ figure span {
 
 figure.img-right {
   float: right;
-  margin: 0 -60px 20px 35px;
+  margin: 0 -100px 20px 35px;
   padding: 0;
   width: 40%;
 }
@@ -172,7 +172,7 @@ div.text-box.sided-box {
   font-family: "Circular";
   float: right;
   width: 50%;
-  margin: 0 -60px 20px 35px;
+  margin: 0 -100px 20px 35px;
   padding: 25px 0;
 }
 div.text-box.sided-box p {
@@ -191,7 +191,7 @@ div.text-box.sided-box span {
 
 figure.img-left {
   float: left;
-  margin: 0 20px 20px -60px;
+  margin: 0 20px 20px -100px;
   padding: 0;
   width: 50%;
 }
@@ -207,7 +207,7 @@ div.half-half figure {
 
 div.half-half {
   width: auto;
-  margin: 60px -60px;
+  margin: 60px -100px;
 }
 div.half-half:after {
   /* These classes are using %clearfix. */
