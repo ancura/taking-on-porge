@@ -93,7 +93,7 @@ EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
 span.porgy-dropcap {
   font-family: "Circular";
   float: left;
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 900;
   background-color: black;
   line-height: 60px;
@@ -136,6 +136,7 @@ blockquote {
   color: #fff;
   padding: 0 30px;
   font-size: 30pt;
+  font-weight: 900;
   line-height: 1.2;
   margin: 0;
 }
@@ -173,6 +174,7 @@ div.text-box.sided-box p {
   color: #fff;
   padding: 0 20px;
   font-size: 30pt;
+  font-weight: 900;
   line-height: 1.2;
   margin: 0;
 }
