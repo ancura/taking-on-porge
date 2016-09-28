@@ -104,9 +104,7 @@ blockquote {
    width: auto;
    margin: $marginer-2 $negative-margin;
    background-color: #000;
-   font-family: sans-serif;
-	p {
-	@font-face {
+   @font-face {
   		font-family: "Circular";
   		src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot");
   		src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot?#iefix") format("embedded-opentype"),
@@ -115,6 +113,7 @@ blockquote {
   		font-style: normal;
   		font-weight: 500;
 	}
+	p {
 		color: #fff;
 	   padding: 0 30px;
 	   font-size: $font-size-1;
