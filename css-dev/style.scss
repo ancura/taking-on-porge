@@ -42,6 +42,15 @@ $marginer-2: 60px;
   font-style: normal;
   font-weight: 400;
 }
+@font-face {
+  font-family: "Circular";
+  src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Black.eot");
+  src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Black.eot?#iefix") format("embedded-opentype"),
+       url("https://www.bu.edu/cdn/fonts/Circular/Circular-Black.woff") format("woff"),
+       url("https://www.bu.edu/cdn/fonts/Circular/Circular-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+}
 
 .container {
 	width: 100%;
