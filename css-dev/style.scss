@@ -125,11 +125,6 @@ span.porgy-dropcap {
 blockquote {
 	width: auto;
 	margin: 0 $negative-margin 25px $negative-margin;
-	/*
-	p {
-		margin-bottom: 25px;
-	}
-	*/
 }
 
 .responsiveVideo {
@@ -248,3 +243,8 @@ p {
 	margin: $marginer 0;
 	font-family: "TiemposText";
 }
+
+ .text-header {
+	font-size: 36pt;
+	line-height: 1.4;
+ }
