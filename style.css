@@ -207,7 +207,7 @@ div.half-half figure {
 
 div.half-half {
   width: auto;
-  margin: 30px -60px;
+  margin: 60px -60px;
 }
 div.half-half:after {
   /* These classes are using %clearfix. */

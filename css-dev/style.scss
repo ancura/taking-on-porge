@@ -220,7 +220,7 @@ div.half-half figure {
 
 div.half-half {
 	width: auto;
-   margin: 30px $negative-margin;
+   margin: $marginer-2 $negative-margin;
    &:after {
       /* These classes are using %clearfix. */
       display: table;
