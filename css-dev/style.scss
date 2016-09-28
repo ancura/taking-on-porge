@@ -104,20 +104,18 @@ blockquote {
    width: auto;
    margin: $marginer-2 $negative-margin;
    background-color: #000;
-   @font-face {
-  		font-family: "Circular";
+	p {
+		font-family: "Circular";
   		src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot");
   		src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot?#iefix") format("embedded-opentype"),
       url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.woff") format("woff"),
       url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.ttf") format("truetype");
   		font-style: normal;
   		font-weight: 500;
-	}
-	p {
 		color: #fff;
 	   padding: 0 30px;
 	   font-size: $font-size-1;
-	   line-height: 1.3;
+	   line-height: 38pt;
 	   margin: 0;
 	}
 }
