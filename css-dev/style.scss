@@ -20,6 +20,8 @@ $color-secondary:            #000000;
 
 $header-primary-color:#fff;
 $header-secondary-color:purple;
+$negative-margin:-60px;
+$font-size-1: 30pt;
 
 
 .container {
@@ -80,7 +82,7 @@ $header-secondary-color:purple;
 
 blockquote {
 	width: auto;
-	margin: 0 -60px 25px -60px;
+	margin: 0 $negative-margin 25px $negative-margin;
 	/*
 	p {
 		margin-bottom: 25px;
@@ -90,32 +92,28 @@ blockquote {
 
 .responsiveVideo {
 	width: auto;
-	margin: 0 -60px;
+	margin: 0 $negative-margin;
 	padding: 40px 0;
 }
 
 .text-box {
 	padding: 25px 0;
    width: auto;
-   margin: 20px -60px;
+   margin: 20px $negative-margin;
    background-color: #000;
    font-family: sans-serif;
 	p {
 		color: #fff;
 	   padding: 0 30px;
-	   font-size: 1.8em;
+	   font-size: $font-size-1;
 	   line-height: 1.3;
 	   margin: 0;
-	}
-	em {
-		color: purple;
-		font-style: normal;
 	}
 }
 
 figure {
 	width: auto;
-   margin: 0 -60px;
+   margin: 0 $negative-margin;
    img {
    	width: 100%;
     	height: auto;
@@ -127,7 +125,7 @@ figure {
 
 figure.img-right {
 	float: right;
-	margin: 0 -60px 20px 20px;
+	margin: 0 $negative-margin 20px 20px;
 	padding: 0;
 	width: 50%;
 	img {
@@ -138,7 +136,7 @@ figure.img-right {
 div.text-box.sided-box {
 	float: right;
    width: 50%;
-   margin: 0 -60px 20px 20px;
+   margin: 0 $negative-margin 20px 20px;
    padding: 25px 0;
    p {
    color: #fff;
@@ -156,7 +154,7 @@ div.text-box.sided-box {
 
 figure.img-left {
 	float: left;
-	margin: 0 20px 20px -60px;
+	margin: 0 20px 20px $negative-margin;
 	padding: 0;
 	width: 50%;
 	img {
@@ -175,7 +173,7 @@ div.half-half figure {
 
 div.half-half {
 	width: auto;
-   margin: 30px -60px;
+   margin: 30px $negative-margin;
    &:after {
       /* These classes are using %clearfix. */
       display: table;
@@ -190,7 +188,9 @@ div.half-half {
 }
 
 em {
-	color: purple;
+	color: #b077ff;
+	font-style: normal;
+	font-size: $font-size-1;
 }
 
 p {
