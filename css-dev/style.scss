@@ -92,11 +92,10 @@ $marginer-2: 60px;
 span.porgy-dropcap {
 	float: left;
    font-size: 100px;
+   background-color: black;
    line-height: 100px;
-   padding: 9px;
-   padding-top: 5px;
-   padding-right: 10px;
-   padding-left: 5px;
+   padding: 0 10px;
+   margin: 10px 10px 0 0;
 }
 
 .img-porgy {
