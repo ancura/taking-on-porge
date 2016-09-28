@@ -95,7 +95,7 @@ span.porgy-dropcap {
    font-size: 100px;
    background-color: black;
    line-height: 100px;
-   padding: 10px;
+   padding: 20px;
    margin: 0 10px 0 0;
    color: #b077ff;
 }
@@ -122,8 +122,7 @@ blockquote {
 
 .responsiveVideo {
 	width: auto;
-	margin: 0 $negative-margin;
-	padding: 40px 0;
+	margin: $marginer-2 $negative-margin;
 }
 
 .text-box {
