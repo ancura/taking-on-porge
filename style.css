@@ -83,6 +83,16 @@ EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
   margin: 0px 0px 0px 24px;
 }
 
+span.porgy-dropcap {
+  float: left;
+  font-size: 75px;
+  line-height: 100px;
+  padding: 9px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
 .img-porgy img {
   width: 20%;
   max-width: 200px;
