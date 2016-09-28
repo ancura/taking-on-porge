@@ -78,6 +78,8 @@ EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
 .banner-container h2 {
   color: #fff;
   position: relative;
+  font-size: 36pt;
+  line-height: 1.4;
 }
 .banner-container h2 em {
   display: block;
