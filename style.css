@@ -35,6 +35,13 @@ EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
   font-style: normal;
   font-weight: 500;
 }
+@font-face {
+  font-family: "TiemposText";
+  src: url("https://www.bu.edu/cdn/fonts/TiemposText/TiemposText-Regular.eot");
+  src: url("https://www.bu.edu/cdn/fonts/TiemposText/TiemposText-Regular.eot?#iefix") format("embedded-opentype"), url("https://www.bu.edu/cdn/fonts/TiemposText/TiemposText-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
 .container {
   width: 100%;
   max-width: 680px;
@@ -196,7 +203,10 @@ em {
 }
 
 p {
+  font-size: 18px;
+  line-height: 25pt;
   margin: 40px 0;
+  font-family: "TiemposText";
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -26,14 +26,22 @@ $marginer: 40px;
 $marginer-2: 60px;
 
 @font-face {
-  		font-family: "Circular";
-  		src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot");
-  		src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot?#iefix") format("embedded-opentype"),
+  	font-family: "Circular";
+  	src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot");
+  	src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot?#iefix") format("embedded-opentype"),
       url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.woff") format("woff"),
       url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.ttf") format("truetype");
-  		font-style: normal;
-  		font-weight: 500;
+  	font-style: normal;
+  	font-weight: 500;
 	}
+@font-face {
+  font-family: "TiemposText";
+  src: url("https://www.bu.edu/cdn/fonts/TiemposText/TiemposText-Regular.eot");
+  src: url("https://www.bu.edu/cdn/fonts/TiemposText/TiemposText-Regular.eot?#iefix") format("embedded-opentype"),
+       url("https://www.bu.edu/cdn/fonts/TiemposText/TiemposText-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
 
 .container {
 	width: 100%;
@@ -207,5 +215,8 @@ em {
 }
 
 p {
+	font-size: 18px;
+	line-height: 25pt;
 	margin: $marginer 0;
+	font-family: "TiemposText";
 }
