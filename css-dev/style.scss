@@ -22,6 +22,8 @@ $header-primary-color:#fff;
 $header-secondary-color:purple;
 $negative-margin:-60px;
 $font-size-1: 30pt;
+$marginer: 40px;
+$marginer-2: 60px;
 
 
 .container {
@@ -30,8 +32,9 @@ $font-size-1: 30pt;
 }
 
 .banner-container {
-	height: 1100px;
+	height: 700px;
 	width: 100%;
+	overflow: hidden;
 
 	h1 {
 	   color: #fff;
@@ -99,10 +102,19 @@ blockquote {
 .text-box {
 	padding: 25px 0;
    width: auto;
-   margin: 20px $negative-margin;
+   margin: $marginer-2 $negative-margin;
    background-color: #000;
    font-family: sans-serif;
 	p {
+	@font-face {
+  		font-family: "Circular";
+  		src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot");
+  		src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot?#iefix") format("embedded-opentype"),
+      url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.woff") format("woff"),
+      url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.ttf") format("truetype");
+  		font-style: normal;
+  		font-weight: 500;
+	}
 		color: #fff;
 	   padding: 0 30px;
 	   font-size: $font-size-1;
@@ -113,7 +125,7 @@ blockquote {
 
 figure {
 	width: auto;
-   margin: 0 $negative-margin;
+   margin: $marginer-2 $negative-margin;
    img {
    	width: 100%;
     	height: auto;
@@ -194,4 +206,5 @@ em {
 }
 
 p {
+	margin: $marginer;
 }
