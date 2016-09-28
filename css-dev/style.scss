@@ -25,6 +25,15 @@ $font-size-1: 30pt;
 $marginer: 40px;
 $marginer-2: 60px;
 
+@font-face {
+  		font-family: "Circular";
+  		src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot");
+  		src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot?#iefix") format("embedded-opentype"),
+      url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.woff") format("woff"),
+      url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.ttf") format("truetype");
+  		font-style: normal;
+  		font-weight: 500;
+	}
 
 .container {
 	width: 100%;
@@ -100,18 +109,12 @@ blockquote {
 }
 
 .text-box {
+	font-family: "Circular";
 	padding: 25px 0;
    width: auto;
    margin: $marginer-2 $negative-margin;
    background-color: #000;
 	p {
-		font-family: "Circular";
-  		src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot");
-  		src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot?#iefix") format("embedded-opentype"),
-      url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.woff") format("woff"),
-      url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.ttf") format("truetype");
-  		font-style: normal;
-  		font-weight: 500;
 		color: #fff;
 	   padding: 0 30px;
 	   font-size: $font-size-1;
@@ -143,6 +146,7 @@ figure.img-right {
 }
 
 div.text-box.sided-box {
+	font-family: "Circular";
 	float: right;
    width: 50%;
    margin: 0 $negative-margin 20px 20px;

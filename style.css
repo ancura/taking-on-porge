@@ -28,6 +28,13 @@ ANY CHANGES YOU MAKE IN THIS FILE WILL BE OVERWRITTEN WHEN THE SASS FILES ARE
 EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
 
 */
+@font-face {
+  font-family: "Circular";
+  src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot");
+  src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot?#iefix") format("embedded-opentype"), url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.woff") format("woff"), url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
 .container {
   width: 100%;
   max-width: 680px;
@@ -94,17 +101,13 @@ blockquote {
 }
 
 .text-box {
+  font-family: "Circular";
   padding: 25px 0;
   width: auto;
   margin: 60px -60px;
   background-color: #000;
 }
 .text-box p {
-  font-family: "Circular";
-  src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot");
-  src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.eot?#iefix") format("embedded-opentype"), url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.woff") format("woff"), url("https://www.bu.edu/cdn/fonts/Circular/Circular-Medium.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 500;
   color: #fff;
   padding: 0 30px;
   font-size: 30pt;
@@ -135,6 +138,7 @@ figure.img-right img {
 }
 
 div.text-box.sided-box {
+  font-family: "Circular";
   float: right;
   width: 50%;
   margin: 0 -60px 20px 20px;
