@@ -72,6 +72,7 @@ EDITED. MAKE SURE YOU MAKE CHANGES IN YOUR SASS FILE.
   font-size: 160pt;
   font-weight: normal;
   transform: skew(0deg, -5deg);
+  text-shadow: 0px 2px 0px #fff;
 }
 .banner-container img {
   width: 100%;
