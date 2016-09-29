@@ -65,15 +65,17 @@ $marginer-2: 60px;
 
 	h1 {
 	   color: #fff;
-	   font-size: 3em;
-	   position: relative;
+    	font-size: 70pt;
+    	position: relative;
+    	margin: 50px 0 0 50px;
 
 	   em {
 	   	width: 100%;
-			display: block;
-		   font-size: 4em;
-		   margin-top: 50px;
-		   transform: skew(10deg,-5deg);
+    		display: block;
+    		margin-top: 45px;
+    		font-size: 160pt;
+    		font-weight: normal;
+    		transform: skew(0deg, -5deg);
 		}
 
 	}
@@ -85,19 +87,20 @@ $marginer-2: 60px;
 	h2 {
 		color: $header-primary-color;
 		position: relative;
-		font-size: 36pt;
+		font-size: 24pt;
 		line-height: 1.4;
 
 		em {
 			display: block;
-			font-size: 30px;
+			font-size: 24pt;
 		}
 	}
 	span {
 		display: block;
 		color: #fff;
     	position: relative;
-    	margin: 0px 0px 0px 24px;
+    	font-size: 14pt;
+    	margin: 0px 0px 0px 50px;
 	}
 }
 
